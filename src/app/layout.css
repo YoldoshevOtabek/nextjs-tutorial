@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    width: 100%;
+    height: 4rem;
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+div > a{
+    font-size: 25px;
+    color: yellowgreen;
+    text-decoration:none;
+}
+.second-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.footer{
+    width: 100%;
+    height: 4rem;
+    background-color: dimgrey;
+    color: yellow;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
