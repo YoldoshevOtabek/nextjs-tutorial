@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <div className='nav-container'>
-          <div>
+          <div className="home">
           <Link href={'/'}><p>Home</p></Link>
             </div>
             <div className="second-container">
